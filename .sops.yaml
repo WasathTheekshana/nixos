@@ -1,0 +1,8 @@
+keys:
+  - &waznix age1jaz5dvve5aa3gajw4238m8wxmjw7k855puccnhhhf0lc3tlnevlqa340ez
+
+creation_rules:
+  - path_regex: hosts/waznix/secrets\.yaml$
+    key_groups:
+      - age:
+          - *waznix
