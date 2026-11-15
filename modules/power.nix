@@ -7,7 +7,7 @@
     HandleLidSwitchDocked = "ignore";
   };
 
-  boot.kernelParams = [ "consoleblank=60" ];
+  boot.kernelParams = [ "consoleblank=0" ];
 
   systemd.sleep.settings.Sleep = {
     AllowSuspend = "no";
