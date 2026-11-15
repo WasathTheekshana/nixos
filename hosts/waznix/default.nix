@@ -9,7 +9,6 @@
     ../../modules/nix-settings.nix
     ../../modules/base-packages.nix
     ../../modules/users.nix
-    ../../modules/deploy.nix
     ../../modules/ssh.nix
     ../../modules/tailscale.nix
     ../../modules/wifi.nix

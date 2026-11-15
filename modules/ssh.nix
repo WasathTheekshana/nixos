@@ -11,7 +11,7 @@
       # AllowUsers already excludes root, so there's no need to also permit
       # root login at the ssh daemon level.
       PermitRootLogin = "no";
-      AllowUsers = [ "wasath" "deploy" ];
+      AllowUsers = [ "wasath" ];
     };
   };
 }
